@@ -1,0 +1,210 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #87CEEB; /* Light Blue background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Added to make the content center vertically */
+}
+
+.chat-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#chatbox {
+    max-height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.chat-message {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #e0e0e0;
+}
+
+.user-input {
+    display: flex;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 8px;
+    border: 1px solid #4CAF50; /* Green border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+}
+
+#chatButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; /* Rounded corners */
+}
+
+.password-container {
+    position: relative;
+}
+
+.show-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #4CAF50;
+    font-size: 14px;
+}
+
+.show-password:hover {
+    text-decoration: underline;
+}
+
+.form-container {
+    width: 400px;
+    background-color: #87CEEB; /* Updated to match the chatbot background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.form-container input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-container .password-container {
+    position: relative;
+}
+
+.form-container .show-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #4CAF50;
+    font-size: 14px;
+}
+
+.form-container .show-password:hover {
+    text-decoration: underline;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-container a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group .show-password {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background-image: url('eye-icon.png'); /* Replace with your eye icon image */
+    background-size: cover;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+a:hover {
+    text-decoration: underline;
+}
